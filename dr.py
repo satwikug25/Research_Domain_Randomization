@@ -3,13 +3,13 @@ import os
 
 input_directory = "/Users/satwikm/Desktop/domain_randomization/Ambulance/"
 output_directory = "/Users/satwikm/Desktop/domain_randomization/Output/"
-background_sound_file = '/Users/satwikm/Desktop/domain_randomization/60570__robinhood76__00388-wet-traffic-1.wav'
+background_sound_file = '/Users/satwikm/Desktop/domain_randomization/396410__felixblume__pedestrian-traffic-light-vitoria-gasteiz-bask-country-spain.wav'
 
 
 background_sound = AudioSegment.from_file(background_sound_file, format='wav')
 
 for filename in os.listdir(input_directory):
-    print(filename)
+    
     if filename.endswith(".WAV"):
         print(filename)
         # Load ambulance call recording
